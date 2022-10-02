@@ -18,3 +18,5 @@ conexion.query(consultar, (err, result) => {
     if (err) throw err;
     console.log(result);
 });
+
+conexion.end();

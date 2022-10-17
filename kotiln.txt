@@ -1,0 +1,67 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+   sumar(15, 22)
+   restar(2,1)
+   multi(3.0f, 5.1f)
+   dividir(4,3)
+}
+
+fun sumar(num:Int,num2:Int){
+    
+    var suma = num+num2
+    print("la suma es: "+suma)
+}
+
+fun restar(num:Int,num2:Int){
+    println("")
+    var resta = num-num2
+    print("la resta es: "+resta)
+}
+fun multi(a:Float,b:Float){
+    println()
+    var multiplicar = a*b
+    println("la multiplicacion es: "+multiplicar)
+}
+fun dividir(a:Int, b:Int):Int = a/b
+----------------------
+fun main() {
+   
+   //mes(1)
+   print(mes(7))
+   
+}
+
+fun mes(a:Int):String{
+    return when(a){
+        1->"Enero"
+        2->"Febrero"
+        3->"Marzo"
+        4->"Abril"
+        5->"Mayo"
+        6->"Junio"
+        7->"Julio"
+        else->"no es valido"
+    }
+}
+----------
+fun mes(a:Int):String{
+    return when(a){
+        1,2,3->"Primer Trimestre"
+        4,5,6->"Segundo Trimestre"
+        7,8,9->"tercer Trimestre"
+        10,11,12->"Cuarto Trimestre"
+        else->"no es valido"
+    }
+}
+----------
+fun mes(a:Int):String{
+    return when(a){
+        in 1..6->"Primer semestre"
+        in 7..12->"Segundo semestre"
+        
+        else->"no es valido"
+    }
+}

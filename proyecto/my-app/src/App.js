@@ -4,6 +4,7 @@ import './App.css';
 import Componente1 from './components/Componente1';
 import Componente2 from './components/Componente2';
 import Componente3 from './components/Componente3';
+import Propiedades from './components/Propiedades';
 
 function App() {
   let nombre = 'ctrujial';
@@ -45,6 +46,14 @@ function App() {
       </section>
       <section>
         <Componente2 creandoAtributo = "hola soy un componente funcional desde una props"/>
+      </section>
+      <section>
+        <Propiedades
+        cadena="una cadena"
+        unObjeto = {{nombre:'Cristian', correo: 'correo@gmail.com'}}
+        arreglo = {[1,2,3]}
+        function = {(numero) => numero*numero}
+        />
       </section>
     </div>
   );

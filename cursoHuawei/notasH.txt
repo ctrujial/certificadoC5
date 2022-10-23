@@ -1,0 +1,7 @@
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050263396
+____________________________________
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/hms-aaid-overview-0000001050171862
+___________________________________________
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-Examples/android-sample-code-0000001050746063
+____________________________________________
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library/android-sdk-download-0000001050986071

@@ -20,7 +20,7 @@ const Create = () => {
 
   return (
     <>
-    <div className='container'>
+    <div className='container-create'>
       <div className='row'>
         <div className='col'> 
           <h1>Create</h1>

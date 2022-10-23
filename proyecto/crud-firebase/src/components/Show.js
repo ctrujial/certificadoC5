@@ -40,11 +40,11 @@ const Show = () => {
     //
     return (
         <>
-        <div className="container">
+        <div className="container-show">
             <div className="row">
                 <div className="col">
                     <div className="p-3 mb-2 bg-secondary text-white">
-                        <Link to="/Create" className='btn btn-secundary mt-2 mb-2'>Create</Link>
+                        <Link to="/Create" className='btn btn-secundary mt-2 mb-2'><h4 className='letra-create'>Create here!</h4></Link>
                     </div>
 
                     <table className='table table-dark table-hover'>

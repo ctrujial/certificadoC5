@@ -13,36 +13,33 @@
   }
 }
 
-.App-header {
-  background-color: #131007;
-  min-height: 100vh;
+.principal {
+  background-color: #256D85;
+  color: #F5EFE6;
+  height: 500px;
+}
+
+.navbarC{
+  display: flex;
+  align-items: center;
+}
+.navbar{
+  background-color: #06283D;
+}
+
+.inicioSeccion{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divflotterDisplay{
+  background-color: #06283D;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #DFF6FF;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.div1 {
-  background-color: rgb(110, 64, 31);
-  color: aliceblue;
-  height: 80px;
+.divflotter{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }

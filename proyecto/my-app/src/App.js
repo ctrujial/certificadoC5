@@ -1,44 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import Componente1 from './components/Componente1';
 import Componente2 from './components/Componente2';
 import Componente3 from './components/Componente3';
 import Propiedades from './components/Propiedades';
+=======
+import Navbar from './components/Navbar';
+import InicioSeccion from './components/InicioSeccion'
+import Flooter from './components/Flooter';
+>>>>>>> f6dfb1ae14b0a5897d1c1be8ddabb03bd3c01546
 
 function App() {
-  let nombre = 'ctrujial';
-  let estaciones = ['Primavera', 'Verano','Otoño','Invierno'];
+
   return (
-    <div className="App">
+    
+    <div>
+
+      <div className='principal'>
+        <section className='navbar'>
+          <Navbar/>
+        </section>
+        <section>
+          <InicioSeccion/>
+        </section>
+      </div>
+      
       <section>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <label htmlFor = 'nombre'>Ingresa tu nombre</label>
-          <input type='text' id='nombre'/>
-          <h1>{nombre}</h1>
-          <p>{3+1}</p>
-          <p>
-            Editar <code>src/App.js</code> desde app.js
-          </p>
-          <ul>
-            {estaciones.map ((el, index) => (
-              <li key={index}>{el}</li>
-            ))}
-          </ul>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+         <Flooter/>
+      </section>
 
-          <section>
-            <Componente3/>
-          </section>
-
+<<<<<<< HEAD
         </header>
       </section>
       <section>
@@ -55,6 +47,8 @@ function App() {
         function = {(numero) => numero*numero}
         />
       </section>
+=======
+>>>>>>> f6dfb1ae14b0a5897d1c1be8ddabb03bd3c01546
     </div>
   );
 } 

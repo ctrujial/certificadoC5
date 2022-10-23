@@ -36,7 +36,7 @@ const Show = () => {
         getUsuarios()
     }, [] )
     // 7. funcion para mostrar la vista de los componentes
-
+    //-la option de borrar ya esta funcional es una operacion directa de firebase 
     //
     return (
         <>

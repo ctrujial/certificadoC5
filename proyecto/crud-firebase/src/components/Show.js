@@ -30,7 +30,27 @@ const Show = () => {
        getUsuarios()
     }
     // 5. funcion para confirmar las alertas por swet alert 
-
+    const confirmDelete = (id) => {
+        MySwal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+                // si confirmamos, llamamos la funcion co el id, de lo contrario nosabra que eliminar
+              deleteUsuarios(id)  
+              Swal.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'                                
+              )
+            }
+          })
+    }
     // 6.
     useEffect( () => {
         getUsuarios()
@@ -41,6 +61,9 @@ const Show = () => {
     return (
         <>
         <div className="container-show">
+            
+            <button className='boton-crud' onClick={ () => {alert("Alerta!!")} }><h1>CRUD</h1></button>
+
             <div className="row">
                 <div className="col">
                     <div className="p-3 mb-2 bg-secondary text-white">
@@ -63,7 +86,7 @@ const Show = () => {
                                     <td>{usuario.cedula}</td>
                                     <td>
                                         <Link to={'/edit/$usuario.id'} className="btn btn-light"><i className="fa-solid fa-pen"></i></Link>
-                                        <button onClick={ () => {deleteUsuarios(usuario.id)} } className="btn btn-danger"><i className="fa-solid fa-eraser"></i></button>
+                                        <button onClick={ () => {confirmDelete(usuario.id)} } className="btn btn-danger"><i className="fa-solid fa-eraser"></i></button>
                                     </td>
                                 </tr>
                             )) }

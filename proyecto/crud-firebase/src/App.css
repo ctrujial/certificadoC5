@@ -16,6 +16,21 @@
 .letra-create:hover{
   color:darkcyan;
 }
+
+.boton-crud{
+  background-color: transparent;
+  border: transparent;
+  color: aliceblue;
+  margin-bottom: 25px;
+}
+
+.boton-crud:hover{
+  color:darkcyan;
+}
+
+.btn-primary{
+  width: 115px;
+}
 /*
 .container-create{
   background-color: rgb(46, 40, 40);
@@ -25,10 +40,6 @@
   display:flex;
   justify-content: center;
   align-items: center;
-}
-
-.btn-primary{
-  width: 115px;
 }
 
 input.form-control{

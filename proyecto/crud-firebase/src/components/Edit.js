@@ -1,3 +1,8 @@
+import { useEffect, useState } from "react"//hoots
+import { useNavigate, useParams } from "react-router-dom"
+import { getDoc, updateDoc, doc } from "firebase/firestore"
+import { db } from "../firebaseConfig/firebase"
+
 const Edit = () => {
   return (
     <div>

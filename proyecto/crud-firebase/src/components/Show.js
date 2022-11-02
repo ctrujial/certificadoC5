@@ -16,12 +16,12 @@ const Show = () => {
     // 3. se crea funcion para mostrar todos los Docs 
     const getUsuarios = async () => {
        const data = await getDocs(usuarioCollection)
-       console.log(data.docs)//aca ya muestra el id de firebase "ya conecto!"
+       //console.log(data.docs)//aca ya muestra el id de firebase "ya conecto!"
 
        setUsuarios(
         data.docs.map( (doc) => ( {...doc.data(), id:doc.id}))//muetra los datos o los obtiene
        )
-        console.log(usuarios)
+        //console.log(usuarios)
     }
     // 4. funcion para eliminar
     const deleteUsuarios = async (id) => {

@@ -16,6 +16,8 @@ const Create = () => {
 
   const usuarioCollection = collection(db, 'usuario')
 
+  //console.log(usuarioCollection)
+
   const confirmstore = () => {// aca creo el mensase en una funcion flecha
     MySwal.fire({
       position: 'top-end',

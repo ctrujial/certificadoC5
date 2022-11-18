@@ -1,3 +1,0 @@
-Please install react-dom@18.0.0, @expo/webpack-config@^0.17.0 by running:
-
-npx expo install react-dom@18.0.0 @expo/webpack-config@^0.17.0

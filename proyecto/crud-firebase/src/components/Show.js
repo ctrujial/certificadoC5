@@ -52,8 +52,10 @@ const Show = () => {
           })
     }
     // 6.
+
     useEffect( () => {
         getUsuarios()
+        // eslint-disable-next-line
     }, [] )
     // 7. funcion para mostrar la vista de los componentes
     //-la option de borrar ya esta funcional es una operacion directa de firebase 

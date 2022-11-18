@@ -19,5 +19,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 //conexion a la base de datos de firebase
-
 export const db = getFirestore(app)

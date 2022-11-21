@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pokemon world</string>
+    <string name="userName">user</string>
+    <string name="password">password</string>
+</resources>

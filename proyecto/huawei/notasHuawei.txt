@@ -1,0 +1,36 @@
+llave-test-key
+ctrujial123
+
+C:\Users\Cristian\AndroidStudioProjects\proyectocs5\llave-test-key.jks
+
+SHA256: 85:97:81:3B:0F:4B:CB:C5:9F:F0:DA:76:93:9E:81:A6:7A:50:73:6E:70:1F:08:87:9D:BA:B1:64:D2:D4:97:58
+
+signingConfigs {
+        config {
+            storeFile file("../llave-test-key.jks")
+            storePassword "ctrujial123"
+            keyAlias "key1"
+            keyPassword "ctrujial123"
+            v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        debug {
+            //signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            //signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+Log.e("actuarial123", "Nuevo token: " + token);
+
+
+keytool -list -v -keystore C:\Users\Cristian\AndroidStudioProjects\proyectocs5\key.jks

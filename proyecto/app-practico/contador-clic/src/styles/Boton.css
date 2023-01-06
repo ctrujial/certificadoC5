@@ -1,0 +1,23 @@
+button{
+  font-family: Roboto, sans-serif;
+  height: 50px;
+  width: 130px;
+  margin: 2px;
+  border: 2px solid white;
+  border-radius: 13px;
+  cursor: pointer;/*se ve una manito en el boton*/
+  font-size: 23px;
+}
+
+button:hover{
+  background-color: rgb(121, 180, 161);
+}
+
+.boton-clic{
+  background-color: #597cda;
+}
+
+.boton-reinicio{
+  background-color: rgb(222, 94, 181);
+}
+

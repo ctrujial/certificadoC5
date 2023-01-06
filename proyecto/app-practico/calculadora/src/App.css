@@ -1,0 +1,38 @@
+.App{
+  height: 100ch;/*se refiere a al altura del navegadr*/
+  background-color: black;
+  padding-top: 10px;
+  font-family: lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;/*para que no todos los elementos esten en la misma linea */
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-calculadora{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  align-content: center;
+}
+
+.calculadora{
+  height: 230px;
+}
+
+.contenedor-principal{
+  background-color: rgb(13, 189, 212);
+  width: 400px;
+  height: 600px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

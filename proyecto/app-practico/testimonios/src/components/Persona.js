@@ -12,7 +12,7 @@ function Persona(){
         imagen = 'cap-america'
         cargo = 'Lider'
         equipo = 'Avager'
-        texto = 'Todo por la justicia, luchare aunque me cueste la vida, mi felicidad es el bien de la humanidad. Amor por el que quiere un mejor mañana'
+        texto = 'Todo por la justicia, luchare aunque me cueste la vida, mi felicidad es el bien de la humanidad. Amor por al que quiere un mejor mañana'
         heroe = "foto capitan america" />
       </div>
       <div>
@@ -32,7 +32,7 @@ function Persona(){
         imagen = 'wolverine'
         cargo = 'Miembro de X-men'
         equipo = 'X-men'
-        texto = 'luchare con quien tenga que luchar, dare lo mejor de mi, he conocido el amor y el dolor. "no te metas en mi camino!"'
+        texto = 'luchare con quien tenga que luchar, dare lo mejor de mi, he conocido el amor y el dolor. no te metas en mi camino!'
         heroe = 'foto wolverine' />
       </div>
     </>

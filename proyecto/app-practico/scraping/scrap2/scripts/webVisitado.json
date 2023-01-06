@@ -1,0 +1,12 @@
+[
+    {
+    "name": "youtube",
+    "url": "https://www.youtube.com/",
+    "scriptName": "youtube"
+    },
+    {
+        "name": "google",
+        "url": "https://www.google.com/?hl=es",
+        "scriptName": "google"
+    }
+]

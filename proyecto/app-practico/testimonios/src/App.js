@@ -1,5 +1,4 @@
 import './App.css';
-import Testimonio from './components/Testimonios';
 import Persona from './components/Persona';
 
 function App() {

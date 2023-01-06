@@ -1,0 +1,39 @@
+*{
+    padding: 0;/*siempre iniciar con margin y paddin en '0'*/
+    margin: 0;
+    box-sizing: border-box;
+}
+/*buena practica*/
+html,
+body{
+    background-color: #070707;
+}
+
+/*asignamos estilos*/
+
+.App{
+    padding-top: 15px;
+    font-family: lato, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 186px;
+    height: 110px;
+    margin-bottom: 30px;
+    margin-right: 105px;
+}
+
+.contenedor-contador{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contador-app{
+    margin-top: 35px;
+}

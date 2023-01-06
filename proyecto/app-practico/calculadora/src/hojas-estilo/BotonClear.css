@@ -1,0 +1,21 @@
+.botonClear{
+    background-color: #ac0246;
+    height: 80px;
+    width: 100vh;
+    display: flex;
+    flex: 1;
+    font-family: loto, sans-serif;
+    font-size: 1.6em;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    margin-top: 8px;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 40px;
+    cursor: pointer; /*el cursos se vuelve como una manito*/
+}
+
+.botonClear:hover{
+    background-color: #bd8e03;
+}
